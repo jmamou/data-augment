@@ -1,11 +1,10 @@
 from datasets import load_dataset
 
-EOS = '</s>'
+from utils import EOS
 
-for split in {'train', 'validation', 'test'}:
-    print(split)
+for split in {'train', 'validation'}:
     dataset = load_dataset('glue', 'sst2', split=split)
     print(dataset)
-    with open(split+'.txt', 'w') as fw:
+    with open('SST-2/'+split+'.txt', 'w') as fw:
         for d in dataset:
-            fw.write(d['sentence'] + EOS + '\n')
+            fw.write(str(d['label'])+ '\t' +d['sentence'] + EOS + '\n')

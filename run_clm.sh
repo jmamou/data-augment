@@ -2,9 +2,8 @@ export DATASET=SST-2
 export TRAIN_FILE=$DATASET/train.txt
 export TEST_FILE=$DATASET/validation.txt
 export MODEL=gpt2-medium
-#export EPOCHS=$1
 
-python transformers/examples/language-modeling/run_clm.py \
+python3 transformers/examples/pytorch/language-modeling/run_clm.py \
     --model_name_or_path $MODEL \
     --train_file $TRAIN_FILE \
     --validation_file $TEST_FILE \

@@ -1,1 +1,5 @@
 SST-2
+tmp
+.idea
+.venv
+__pycache__
