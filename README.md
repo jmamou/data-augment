@@ -59,4 +59,4 @@ python data_augment.py \
 ## Citation
 [Not Enough Data? Deep Learning to the Rescue!](https://arxiv.org/abs/1911.03118), Ateret Anaby-Tavor, Boaz Carmeli, Esther Goldbraich, Amir Kantor, George Kour, Segev Shlomov, Naama Tepper, Naama Zwerdling, AAAI 2020.
  
-[Natural Language Generation for Effective Knowledge Distillation](https://www.aclweb. org/anthology/D19-6122.pdf), Raphael Tang, Yao Lu, Jimmy Lin, DeepLo 2019.
+[Natural Language Generation for Effective Knowledge Distillation](https://www.aclweb.org/anthology/D19-6122.pdf), Raphael Tang, Yao Lu, Jimmy Lin, DeepLo 2019.
